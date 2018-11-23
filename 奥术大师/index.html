@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>奥术大师分析</title>
+    <style>
+        .btn {
+            background-color: brown;
+            border-radius: 50px;
+            height: 100px;
+            width: 500px;
+            margin: 40px auto 0;
+            line-height: 100px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .btn a {
+            display: block;
+            text-decoration: none;
+        }
+        .content {
+            height: 300px;
+            width: 500px;
+            background-color: greenyellow;
+            margin: 0 auto;
+            /* float: left; */
+            /* z-index: 10000; */
+            display: none;
+        }
+        .circular {
+            z-index: -10;
+        }
+        .circular img {
+            position: relative;
+        }
+    </style>    
+</head>
+<body>
+    <div class="btn">
+        <a href="javascript:;" id="abtn">奥术大师分析</a>
+    </div>
+    <div class="content"></div>
+    <div class="circular">
+        <img src="circular.png" alt="" id="c1" width="10px">
+        <img src="circular.png" alt="" id="c2" width="20px">
+        <img src="circular.png" alt="" id="c3" width="30px">
+        <img src="circular.png" alt="" id="c4" width="40px">
+        <img src="circular.png" alt="" id="c5" width="50px">
+        <img src="circular.png" alt="" id="c6" width="60px">
+    </div>
+    <script>
+            var flag = false;
+            var btn = document.getElementById("abtn");
+            var block = document.getElementsByClassName("content")[0];
+            var c1 = document.getElementById("c1");
+            var c2 = document.getElementById("c2");
+            var c3 = document.getElementById("c3");
+            var c4 = document.getElementById("c4");
+            var c5 = document.getElementById("c5");
+            var c6 = document.getElementById("c6");
+            btn.onclick = function fun() {                
+                if(!flag){
+                    btn.innerHTML = "哈哈哈哈哈";
+                    block.style.display = "block";
+                    console.log(c1.offsetLeft);
+                    console.log(c1.offsetTop);
+                }else {
+                    btn.innerHTML = "奥术大师分析";
+                    block.style.display = "none";
+                }
+                flag = !flag;
+            }
+            
+    </script>
+</body>
+</html>
