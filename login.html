@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录-后台管理</title>
+    <script src="/public/system/sourse/lib/jquery.js"></script>
+    <script src="/public/system/login/index.js"></script>
+    <link rel="stylesheet" href="/public/system/login/index.css">
+    <link rel="shortcut icon" href="/public/system/sourse/img/favicon.png" type="image/x-icon">
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+<body >
+    <form action="index.html">
+        <label for="logoimg" class="loginlogo">
+            <img src="https://dummyimage.com/600x400/7bcfa6/FFF&text=logo" alt="" id="logoimg">
+        </label>
+        <label class="formgroup">
+            <input type="text" id="username" placeholder="账号" autofocus="autofocus">
+        </label>
+        <label for="pwd" class="formgroup">
+            <input type="password" id="pwd" placeholder="密码">
+        </label>
+        <label class="formgroup">
+            <input type="text" id="verify" placeholder="验证码">
+            <img src="/public/system/sourse/img/verify.svg" alt="" id="changeVerity">
+        </label>
+        <label for="" class="formgroup">
+            <a href="javascript:;" class="login">登录</a>
+            <p style="text-align:center" id="resultMsg"></p>
+        </label>
+    </form>
+</body>
+</html>

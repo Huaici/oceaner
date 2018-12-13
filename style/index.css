@@ -1,0 +1,12 @@
+@import"base.css";
+
+.site-logo img {
+  height: 30px;
+}
+
+header {
+  background-color: #fff;
+  height: 66px;
+  width: 100%;
+  position: fixed;
+}

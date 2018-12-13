@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("/public/system/sourse/img/loginbg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+form {
+    margin: 20vh auto 0;
+    /* margin-top: 20vh;
+    margin-left: 70vw;
+    margin-right: 10vw; */
+    width:20vw;
+    height: 51vh;
+
+    background-color: #fff9;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 1px #8080807d;
+}
+form label{
+    display: block;
+    width: 100%;
+}
+.loginlogo {
+    height: 26vh;
+}
+
+#logoimg {
+    height: 26vh;
+    width: 20vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.formgroup {
+    height: 6vh;
+    text-align: center;
+}
+/* 字体 */
+#username, #pwd, #verify{
+    display: inline-block;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vw;
+    height: 3vh;
+}
+
+#changeVerity {
+    width: 5vw;
+}
+
+#username, #pwd {
+    width: 15vw;
+}
+#verify {
+    width: 10vw;
+}
+#resultMsg {
+    background-color: #FF8C31;
+    color: aliceblue;
+}
+.error {
+    width: 2vh;
+    /* position: relative; */
+    float: left;
+    /* left: -3vh; */
+}
+
+.login {
+    text-decoration: none;
+    display: block;
+    width: 7vw;
+    height: 4vh;
+    line-height: 4vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    background-color: #2EDFA3;
+    box-shadow: 1px 1px 10px 3px #8080803d;
+}
+.login:hover {
+    background-color: #1BD1A5;
+}
+.login:active {
+    background-color: #009688;
+}
+
+
+
+
