@@ -1,5 +1,4 @@
 $(function() {
-  /*
     let csrf = $.cookie('csrfToken');
     let $username = $('#username');
     let $pwd = $('#pwd');
@@ -42,5 +41,4 @@ $(function() {
       }
     });
 
-*/
-  });
+});

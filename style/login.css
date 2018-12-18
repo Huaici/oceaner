@@ -81,10 +81,12 @@ form label{
     box-shadow: 1px 1px 10px 3px #8080803d;
 }
 .login:hover {
-    background-color: #1BD1A5;
+    background-color: #FF7500;
+    box-shadow: inset 1px 1px 12px 7px #8080803d;
 }
 .login:active {
-    background-color: #009688;
+    background-color: #FF7500;
+    box-shadow: inset 1px 1px 12px 7px #8080803d;
 }
 
 
