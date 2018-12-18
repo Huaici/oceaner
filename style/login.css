@@ -9,12 +9,12 @@ body {
     background-attachment: fixed;
 }
 form {
-    margin: 20vh auto 0;
+    margin: 20vh auto 10px;
     /* margin-top: 20vh;
     margin-left: 70vw;
     margin-right: 10vw; */
-    width:20vw;
-    height: 51vh;
+    width:384px;
+    height: 485px;
 
     background-color: #fff9;
     border-radius: 5px;
@@ -25,18 +25,18 @@ form label{
     width: 100%;
 }
 .loginlogo {
-    height: 26vh;
+    height: 248px;
 }
 
 #logoimg {
-    height: 26vh;
-    width: 20vw;
+    height: 248px;
+    width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .formgroup {
-    height: 6vh;
+    height: 57px;
     text-align: center;
 }
 /* 字体 */
@@ -44,18 +44,18 @@ form label{
     display: inline-block;
     font-size: 1.6vh;
     letter-spacing: 0.1vw;
-    height: 3vh;
+    height: 28px;
 }
 
 #changeVerity {
-    width: 5vw;
+    width: 96px;
 }
 
 #username, #pwd {
-    width: 15vw;
+    width: 288px;
 }
 #verify {
-    width: 10vw;
+    width: 190px;
 }
 #resultMsg {
     background-color: #FF8C31;
@@ -65,19 +65,19 @@ form label{
     width: 2vh;
     /* position: relative; */
     float: left;
-    /* left: -3vh; */
+    /* left: -28px; */
 }
 
 .login {
     text-decoration: none;
     display: block;
-    width: 7vw;
-    height: 4vh;
-    line-height: 4vh;
+    width: 135px;
+    height: 38px;
+    line-height: 38px;
     margin: 0 auto;
     border-radius: 20px;
     color: white;
-    background-color: #2EDFA3;
+    background-color: #FF7500;
     box-shadow: 1px 1px 10px 3px #8080803d;
 }
 .login:hover {
