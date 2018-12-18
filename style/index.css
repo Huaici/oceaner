@@ -1,12 +1,65 @@
 @import"base.css";
+@import"header.css";
+@import"footer.css";
 
-.site-logo img {
-  height: 30px;
+.main {
+  
 }
 
-header {
-  background-color: #fff;
-  height: 66px;
+.banner {
+  background-image: url("../res/img/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  text-align: center;
+  /* position: relative; */
+}
+
+/* .banner > * {
+  position: absolute;
+} */
+
+.feature {
+  background-color: #eee;
+  height: 400px;
+  padding: 0 200px;
+  margin: 0 auto;
+  clear: both;
+}
+.feature1, .feature3 {
+  background-color: #f6f6f6;
+}
+.feature-info > * {
   width: 100%;
-  position: fixed;
+}
+.feature-logo {
+  float: left;
+  padding-top: 36px;
+}
+.feature-logo img {
+  margin: 10px 0;
+}
+.feature-info {
+  width: 600px;
+  float: left;
+  padding-left: 50px;
+}
+
+
+.poster-title {
+  color: #4c4c4c;
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin: 90px 0 20px 0;
+}
+
+.poster-describe {
+  color: #555;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
 }

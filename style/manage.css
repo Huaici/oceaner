@@ -1,0 +1,52 @@
+@import"base.css";
+@import"header.css";
+@import"footer.css";
+
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main {
+    padding: 66px 20% 400px;
+}
+.main h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0 40px;
+}
+.form-item {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 1px #bbb solid;
+    margin: 20px 15px;
+    box-shadow: 1px 1px 10px 0px #9995;
+}
+.form-item:hover {
+    border: 1px var(--main-color) solid;
+    box-shadow: 1px 1px 10px 0px #a26b4e55;
+}
+.form-item-thumbnail, .form-item-info {
+    background-color: #fff;
+}
+.form-item-thumbnail {
+    height: 150px;
+}
+.form-item-info {
+    height: 49px;
+    border-top: 1px #999 solid;
+    padding-left: 10px;
+}
+
+.form-item-name {
+    color: #aaa;
+    font-weight: bold;
+}
+
+.form-item-time {
+    color: #666;
+}

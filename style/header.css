@@ -1,0 +1,60 @@
+header {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    line-height: 66px;
+  }
+  
+  .site-logo {
+    padding-left: 500px;
+  }
+  
+  
+  .site-logo,.site-logo img, .site-logo p , nav {
+    float: left;
+  }
+  
+  .site-logo img {
+    height: 36px;
+    padding: 15px 0;
+  }
+  
+  .site-logo a {
+    display: block;
+  }
+  
+  .branch {
+    color: var(--main-color);
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav {
+    margin-left: 40px;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  nav a {
+    color: var(--main-color);
+  }
+  
+  nav a:hover {
+    color: orange;
+  }
+
+  .enter {
+    float: right;  
+    margin-right: 500px;
+    /* border: 1px var(--main-color) solid; */
+  }
+  
+  .enter a {
+    color: var(--main-color);
+  }
